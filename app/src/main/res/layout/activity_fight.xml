@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg1"
+    tools:context="com.pattmayne.facefighter.FightActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="19dp"
+            android:text="BATTLE MENU:"/>
+
+        <Button
+            android:text="button1"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/battle_button_1"
+            android:background="@drawable/button_two"
+            android:onClick="performBattleMove"/>
+        <Button
+            android:text="button2"
+            android:textColor="@color/white"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/battle_button_2"
+            android:background="@drawable/button_three"
+            android:onClick="performBattleMove"/>
+        <Button
+            android:text="button3"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            android:id="@+id/battle_button_4"
+            android:background="@drawable/button_six"
+            android:onClick="performBattleMove"/>
+        <Button
+            android:text="button4"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/battle_button_3"
+            android:background="@drawable/button_four"
+            android:onClick="performBattleMove"/>
+        <Button
+            android:text="button5"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/battle_button_5"
+            android:background="@drawable/button_five"
+            android:onClick="performBattleMove"/>
+        <Button
+            android:text="button6"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/battle_button_6"
+            android:background="@drawable/button_seven"
+            android:onClick="performBattleMove"/>
+
+        <Button
+            android:text="Start Fight"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/start_fight_button"
+            android:background="@drawable/button_six"
+            android:onClick="startFight"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <com.pattmayne.facefighter.FightView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fight_view"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>

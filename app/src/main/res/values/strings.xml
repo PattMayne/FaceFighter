@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Face Fighter</string>
+    <string name="button_text_save_face">Save Face</string>
+
+    <color name="red">#ffff0000</color>
+    <color name="thirdGreen">#ff008924</color>
+    <color name="yellow">#ffd8ff00</color>
+    <color name="blue">#3C5BCC</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFA0</color>
+    <color name="orange2">#CFA029</color>
+    <color name="deepOrange">#ffa45e00</color>
+    <color name="transparent">#007999</color>
+    <color name="healthGreen">#ef051701</color>
+    <color name="lightGreen">#e92bbf0d</color>
+    <color name="rose">#f29a0e2a</color>
+    <color name="light_red">#f2f84b2f</color>
+    <color name="orange">#f2cc9001</color>
+    <color name="light_blue">#f28492ff</color>
+    <color name="light_black">#ff2e2e2e</color>
+    <color name="orange3">#ffffd000</color>
+    <color name="trans_white">#29827ca7</color>
+
+    <string name="title_activity_main">Face Fighter</string>
+    <string name="button_load_face_text">Load Face</string>
+    <string name="button_create_face_text">Create New Face</string>
+    <string name="piece_viewer_text">Select A Feature</string>
+    <string name="piece_title_text">Information</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+
+    <string name="character_info_text">Character Info</string>
+    <string name="character_name_text">Character\'s Name</string>
+    <string name="title_activity_fight_prep">Ready to Fight?</string>
+    <string name="fight_prep_text_view_text">Choose Your Arena:</string>
+    <string name="title_activity_fight">It\'s a Battle!</string>
+    <string name="character_view_variable_launch_button_text">FIGHT!</string>
+    <string name="title_character_summary_activity">Your Character is Ready</string>
+    <string name="action_toggle_music">Music On/Off</string>
+    <string name="action_toggle_sound">Sound FX On/Off</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

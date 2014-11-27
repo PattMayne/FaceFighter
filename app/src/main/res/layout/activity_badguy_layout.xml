@@ -1,0 +1,277 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:padding="11dp"
+    android:orientation="horizontal"
+    tools:context=".FaceBuilderMenu">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_blue"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:text=" Pick a Feature: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/feature_picker_label_text"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:background="@drawable/face_devil"
+            android:onClick="placeDevilFace"
+            />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:background="@drawable/eyes_devil"
+            android:onClick="placeDevilEyes"
+            />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:background="@drawable/mouth_devil"
+            android:onClick="placeDevilMouth"
+            />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:background="@drawable/beard_devil"
+            android:onClick="placeDevilBeard"
+            />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:background="@drawable/head_devil"
+            android:onClick="placeDevilHead"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/brow_curious"
+             android:onClick="placeBrowCurious"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/brow_mean"
+            android:onClick="placeDevilBrow"
+            />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="100dp"
+            android:padding="2dp"
+            android:background="@drawable/face_one"
+            android:id="@+id/button_face_one"
+            android:onClick="placeFaceOne"
+            />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="100dp"
+            android:padding="2dp"
+            android:background="@drawable/face_two"
+            android:id="@+id/button_face_two"
+            android:onClick="placeFaceTwo"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/eyes_laser"
+            android:id="@+id/button_eyes_laser"
+            android:onClick="placeEyesLaser"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/eyes_cat"
+            android:id="@+id/button_eyes_cat"
+            android:onClick="placeEyesCat"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/eyes_shades"
+            android:id="@+id/button_eyes_shades"
+            android:onClick="placeEyesShades"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/mouth_bigteeth"
+            android:id="@+id/button_mouth_bigteeth"
+            android:onClick="placeMouthBigTeeth"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/mouth_metaltongue"
+            android:id="@+id/button_mouth_metaltongue"
+            android:onClick="placeMouthMetalTongue"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/head_helmet"
+            android:id="@+id/button_head_helmet"
+            android:onClick="placeHeadHelmet"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/head_spikedhair"
+            android:id="@+id/button_head_spikedhair"
+            android:onClick="placeHeadSpikedHair"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/head_tophat"
+            android:id="@+id/button_head_tophat"
+            android:onClick="placeHeadTopHat"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/beard_absorbent"
+            android:id="@+id/button_beard_absorbent"
+            android:onClick="placeBeardAbsorbent"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/beard_sonic"
+            android:id="@+id/button_beard_sonic"
+            android:onClick="placeBeardSonic"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/beard_spikedtie"
+            android:id="@+id/button_beard_spikedtie"
+            android:onClick="placeBeardSpikedTie"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/brow_curious"
+            android:id="@+id/button_brow_curious"
+            android:onClick="placeBrowCurious"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/brow_mean"
+            android:id="@+id/button_brow_mean"
+            android:onClick="placeBrowMean"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_save_face"
+            android:id="@+id/button_save_face"
+            android:onClick="saveFace"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/button_next_feature"
+            android:onClick="nextFeature"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/bg_red">
+
+        <com.pattmayne.facefighter.FaceBuilderView
+            android:background="@null"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="270dp"
+            android:id="@+id/faceBuildView"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_blue"
+        android:padding="7dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:text="@string/piece_title_text"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="@color/orange2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/piece_title_text_label"/>
+
+        <TextView
+            android:text="@string/piece_viewer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange2"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:id="@+id/selected_piece_text_label"/>
+
+    </LinearLayout>
+
+</LinearLayout>
